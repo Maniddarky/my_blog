@@ -20,7 +20,6 @@ lazy-object-proxy==1.4.2
 mccabe==0.6.1
 oauthlib==3.1.0
 pep8==1.7.1
-Pillow==6.2.0
 psycopg2-binary==2.7.7
 pycodestyle==2.5.0
 pylint==2.4.2
