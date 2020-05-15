@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ej94*=dfn7e2vj^v#nq-bvn#n#687mcf@)iqu%j&6qn0!m3xq3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['teracoders.herokuapp.com','127.0.0.1']
 
