@@ -137,6 +137,8 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static_int_env')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 # Tinymce
 
 TINYMCE_DEFAULT_CONFIG = {
@@ -178,7 +180,5 @@ AUTHENTICATION_BACKENDS = (
 )
 
 SITE_ID = 1
-
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 django_heroku.settings(locals())
